@@ -5,6 +5,7 @@ import {
   Database, 
   Globe, 
   Server, 
+  DatabaseBackup,
   Cpu, 
   PenTool, 
   Briefcase,
@@ -38,6 +39,12 @@ export function SkillsSection() {
       category: "Programming",
       icon: <Code className="h-6 w-6" />,
       items: ["JavaScript", "TypeScript", "Python", "C++","SQL"],
+      color: "bg-amber-500/10 text-amber-500"
+    },
+      {
+      category: "Other",
+      icon: <DatabaseBackup className="h-6 w-6" />,
+      items: ["Data Structures and Algorithms","Operating System", "Database Management Systems", "Object Oriented Programming", "Computer Networks"],
       color: "bg-amber-500/10 text-amber-500"
     }
   ];
