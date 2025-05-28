@@ -47,8 +47,11 @@ export function ProjectsSection() {
     },
     {
       title: "College Tips Gallery",
-      description:"A Response Gallery of CollegeTips",
-      images:"",
+      description:"A Responsive Gallery of CollegeTips",
+      images:"collegetips.png",
+      tags:["React+Vite","TailwindCSS","Lucid-React Icons"],
+      demoUrl:"https://college-tips-gallery-nu.vercel.app",
+      repoUrl:"https://github.com/savansr/college-tips-gallery"
     }
   ];
 
