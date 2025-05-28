@@ -44,6 +44,11 @@ export function ProjectsSection() {
       tags: ["React", "FastAPI", "LangChain", "Pincecone-vectorDB"],
       demoUrl: "https://doc-chat-ai-dgsp.vercel.app/",
       repoUrl: "https://github.com/savansr/docChat-AI.git",
+    },
+    {
+      title: "College Tips Gallery",
+      description:"A Response Gallery of CollegeTips",
+      images:"",
     }
   ];
 
